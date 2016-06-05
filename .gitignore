@@ -61,4 +61,8 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
+#Sensitive settings
 settings_secret.py
+
+#SQLite database
+*.sqlite3
