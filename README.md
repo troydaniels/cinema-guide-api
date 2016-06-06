@@ -7,8 +7,7 @@ This API supports the application/json media type, with all valid GET queries re
 A series of tests for this API can be found under `cinema-guide-api/project/cinema_guide_api/test*`, and can be run using `python manage.py test`
 
 ####Available operations:
-####
-/cinema/
+####/cinema/
 Allows: GET, POST
 
 Lists all cinemas, or allows the creation of a new cinema
