@@ -13,9 +13,9 @@ Allows: GET, POST
 Lists all cinemas, or allows the creation of a new cinema
 
 ####/movie/
-Allows: GET, POST
+Allows: POST
 
-Lists all movies, or allows the creation of a new movie
+Allows the creation of a new movie
 
 ####/cinema/{identifier}
 Allows: GET, PUT, DELETE
