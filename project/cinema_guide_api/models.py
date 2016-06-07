@@ -31,6 +31,6 @@ class Showing(models.Model):
     cinema = models.ForeignKey(Cinema, on_delete = models.CASCADE)
     movie = models.ForeignKey(Movie, on_delete = models.CASCADE)
     #Movies need not start (ie, 'coming soon') nor finish date
-    #Specify dates to be in dd-mm-yyyy format
+    #Specify dates to be in YYYY-MM-DD format
     start = models.DateField("Start Date", null = True, blank = True)
     end = models.DateField("End Date", null = True, blank = True)
