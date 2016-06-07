@@ -1,3 +1,10 @@
+"""
+serializers.py
+Defines Cinema Guide API model serializers
+
+Troy Daniels - 05/06/16
+"""
+
 from rest_framework import serializers
 from cinema_guide_api.models import *
 
